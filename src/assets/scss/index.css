@@ -1,0 +1,133 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  background: white;
+  margin: 10px auto;
+  position: relative;
+  text-align: center;
+  border: 1px solid black;
+}
+.block {
+  background: green;
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.imaginary-heading {
+  background-color: #cfe7e7;
+  color: #4a4ae5;
+  border-bottom: 1px solid black;
+}
+.imaginary-heading h2 {
+  margin: 3px 0px;
+}
+.search-wrapper {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  border-bottom: 1px solid black;
+  padding: 5px 0px;
+}
+
+.search-wrapper p,
+.search-wrapper span {
+  display: flex;
+}
+.search-wrapper button {
+  color: #9c9ce7;
+  font-size: 16px;
+  text-decoration: underline;
+  padding: 0px 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.search-filter input {
+  height: 32px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.search-filter {
+  padding-left: 40px;
+}
+
+.photo-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+.photo-list-wrap {
+  flex: 0 0 33.3333%;
+  justify-content: center;
+}
+
+.comment-item {
+  border-bottom: 1px solid black;
+  list-style: none;
+  background-color: #7bcfa04a;
+  text-align: left;
+  padding-left: 10px;
+}
+.photo-list-inner {
+  margin: 0px 35px 15px 35px;
+  border: 1px solid black;
+}
+.comment-list {
+  padding-left: 0px;
+  margin: 0px;
+}
+.like-count {
+  color: #e70000;
+}
+.like {
+  color: #8181db;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.photo-category {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+}
+.like-count-wrap {
+  display: flex;
+}
+.photo-cat {
+  display: flex;
+}
+.comment-section {
+  display: flex;
+}
+.comment-section input {
+  /* width: 73%; */
+  display: flex;
+  flex: 4;
+}
+.post-button {
+  background-color: #bfbffa;
+  border: none;
+  height: 22px;
+  /* width : 23%; */
+  display: flex;
+  flex: 1;
+}
+button.delete-comment {
+  cursor: pointer;
+  /* float: right; */
+  background: #cb1d1d;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #4cb7bc;
+  margin-left: 10px;
+}
