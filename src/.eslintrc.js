@@ -5,7 +5,7 @@ module.exports = {
     'no-multi-assign': 0,
     'react/destructuring-assignment': 0,
     'react/prop-types': 0,
-    'no-console': 1,
+    // 'no-console': 1,
     camelcase: 0,
     'no-script-url': 0,
     'react/no-unescaped-entities': 0,

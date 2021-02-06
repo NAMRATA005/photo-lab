@@ -14,7 +14,7 @@ class Home extends React.Component {
   }
 
   componentDidMount() {
-    window.document.title = 'Photos';
+    window.document.title = 'PhotoLab';
     this.props.getPhotos();
   }
 
